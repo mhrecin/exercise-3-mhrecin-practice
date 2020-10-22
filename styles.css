@@ -1,0 +1,50 @@
+*{
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    }
+    /* body takes up full viewport and extends all the way to the edges. */
+    html, body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+    body {
+    height: 100vh;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .title{
+        color:black;
+    }
+
+    main{
+        display: flex;
+        flex: auto;
+    }
+
+    article{
+        flex: 3;
+    }
+    aside{
+        flex: 1;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
